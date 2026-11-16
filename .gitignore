@@ -1,0 +1,10 @@
+exports/
+data/
+mlruns/
+results/heatmaps/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+*.trt
+*.engine

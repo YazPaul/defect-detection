@@ -1,0 +1,24 @@
+# Core
+anomalib>=2.0.0          # code uses the 2.x API (MVTecAD, augmentations=, pre/post-processors)
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# ONNX
+onnx>=1.14.0
+onnxruntime-gpu>=1.16.0   # CPU-only: use onnxruntime instead
+
+# Experiment tracking
+mlflow>=2.8.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+scikit-learn>=1.3.0       # AUROC computation
+
+# TensorRT & CUDA (install separately — see README)
+# tensorrt>=8.6.0          -> https://docs.nvidia.com/deeplearning/tensorrt/install-guide/
+# pycuda>=2022.1           -> pip install pycuda (requires CUDA toolkit)

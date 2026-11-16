@@ -8,3 +8,7 @@ __pycache__/
 .env
 *.trt
 *.engine
+
+# IDE (per-user state)
+.idea/workspace.xml
+.idea/misc.xml
